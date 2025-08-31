@@ -8,6 +8,42 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <h1>Login Form</h1>
+  
+  <form id="loginForm">
+    <!-- Username -->
+    <input 
+      type="text" 
+      id="username" 
+      placeholder="Username" 
+      required
+    /><br><br>
+
+    <!-- Password -->
+    <input 
+      type="password" 
+      id="password" 
+      placeholder="Password" 
+      required
+    /><br><br>
+
+    <!-- Remember Me -->
+    <input type="checkbox" id="checkbox" />
+    <label for="checkbox">Remember me.</label>
+    <br><br>
+
+    <!-- Submit -->
+    <input 
+      type="submit" 
+      id="submit" 
+      value="Submit"
+    />
+  </form>
+
+  <!-- Existing User Login Button -->
+  <button id="existing" style="display: none;">
+    Login as existing user
+  </button>
     <script type="text/javascript" src="./script.js">
 </script>
 
